@@ -1,0 +1,129 @@
+int @neinit;
+int @variabila1 @ = 2 ;
+int @variabila @ = 10;
+int @test @ = 10;
+int @a @ = 8 + 2;
+@a @ = 5;
+int @b @ = @a * @a + @a + 2 - 5 -@a;
+@b @ = 50;
+
+float @var2 @ = 3.2;
+
+string @stringValue * = "Sir de caractere";
+
+int @resultatSimplu @ = 5;
+@resultatSimplu @ = (1 + @b) + @resultatSimplu;
+
+
+
+int #mediaAritmetica(int @numar1, int @numar2) 
+start_fun
+    int @zzz @ = 5;
+    @test @ = @test + 1;
+    int @impartit @ = 1 + 1;
+    int @sum @ = @numar1 + @numar2;
+    return (@sum / 2);
+end_fun
+
+int #mediaX(int @numar1, int @numar2) 
+start_fun
+    int @zzz @ = @numar1 * 100;
+    return (@zzz + @numar2 );
+end_fun
+
+
+int @rrrrrrrrrrr @ = #mediaX # (100, 10);
+
+int @result @ = #mediaAritmetica # (@test,@test*2) + 22;
+int @medie @ = #mediaAritmetica # (100+5, @variabila/2);
+#mediaAritmetica # (@test,@test*2);
+#mediaAritmetica # (@test,@test*2);
+
+int @resultatTest @ = @test;
+int @numar1 @ = 6;
+
+int #functieInt(int @param) 
+start_fun
+    return (@numar1);
+end_fun
+
+int #functieVoid(int @param) 
+start_fun
+    float @a2 @ = @a;
+    int @bLocal;
+end_fun
+
+int @a2 @ = #functieVoid # (1);
+
+int @termen @ = 1000;
+bool @bVal1 : = @result > @termen;
+bool @bVal2 : = true;
+
+int #functieNoua(int @param1) 
+start_fun
+    return (1);
+end_fun
+
+#functieNoua # (1);
+
+class @nume_clasa 
+begin_class
+    public:
+        start_public
+            int @proprietatePublica;
+            int @variabilaTest2;
+            int #metoda1(int @metoda1Param1, int @metoda1Param2) 
+            start_fun
+                string @varPublic;
+                string @varPublic2;
+             
+                =string= @varPublic,@varPublic2;
+                scopy= @varPublic, @varPublic2;
+                scat= @varPublic, @varPublic2;
+            end_fun
+            int #metoda2(int @metoda2Param1, int @metoda2Param2) 
+            start_fun
+                int @varPublic;
+                float @varPublic2;
+                =string= @varPublic,@varPublic2;
+                scopy= @varPublic, @varPublic2;
+            end_fun
+        end_public
+    private:
+        start_privat
+            string @proprietatePrivata;
+            int #metodaPrivata(int @metoda1PrivataParam1, int @metoda1PrivataParam2) 
+            start_fun
+                int @varPrivate;
+                float @varPrivate2;
+                =string= @varPrivate,@varPrivate2;
+                scopy= @varPrivate, @varPrivate2;
+            end_fun
+        end_privat
+        construct ()
+        start_fun
+            int @nou @ = 1;
+        end_fun
+end_class;
+bool @bVal23 : = 2 > 1;
+
+int #functieIfForWhile(int @param1) 
+start_fun
+    if ( @bVal23 and 1 > 2 or true == 5 ) 
+        start
+            bool @bVal223 : = true;
+        end
+    else
+        start
+             @bVal223  : = true;
+        end
+    for(int @i @ = 1 ; @i < 2 ; @i @ = @i + 2 ;)
+        start
+             @bVal223  : = true;
+        end
+    while ( @bVal223)
+        start
+            @bVal223  : = true;
+        end
+    
+end_fun

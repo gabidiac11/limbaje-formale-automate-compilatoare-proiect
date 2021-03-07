@@ -1,0 +1,18 @@
+- nu poti redefini
+- nu poti asigna ceva neinitializat
+- operatie adunare simpla
+- operatie adunare cu paranteze si variabile
+- asigneaza corect:
+
+int @resultatSimplu @ = 5;
+@resultatSimplu @ = (1 + @b) + @resultatSimplu;
+
+- la apel mediaAritmetica returneaza 
+rezultat ok si cresete @test
+
+- merg apeluri de asignare si apeluri normale
+- merg expresiile ca parametrii de apel
+- merge retrun intr-o functie void
+- functia void returneaza undefined
+- return-ul opreste executia functiei
+- clasa (nivel sintactiv)

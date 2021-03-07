@@ -1,0 +1,58 @@
+Variabila, Nume: '@neinit', Tip: int, Valoare: nedefinit, Scope: 'global'
+Variabila, Nume: '@variabila1', Tip: int, Valoare: '2', Scope: 'global' 
+Variabila, Nume: '@variabila', Tip: int, Valoare: '10', Scope: 'global' 
+Variabila, Nume: '@test', Tip: int, Valoare: '10', Scope: 'global' 
+Variabila, Nume: '@a', Tip: int, Valoare: '5', Scope: 'global' 
+Variabila, Nume: '@b', Tip: int, Valoare: '50', Scope: 'global' 
+Variabila, Nume: '@var2', Tip: float, Valoare: '3.2', Scope: 'global' 
+Variabila, Nume: '@stringValue', Tip: string, Valoare: '"Sir de caractere"', Scope: 'global' 
+Variabila, Nume: '@resultatSimplu', Tip: int, Valoare: '56', Scope: 'global' 
+Functie, Nume: '#mediaAritmetica', Tip: int, Scope: 'global'
+Parametru, Nume: '@numar1', Tip: int, Valoare: nedefinit, Scope: '#mediaAritmetica'
+Parametru, Nume: '@numar2', Tip: int, Valoare: nedefinit, Scope: '#mediaAritmetica'
+Variabila, Nume: '@zzz', Tip: int, Valoare: '5', Scope: '#mediaAritmetica' 
+Variabila, Nume: '@impartit', Tip: int, Valoare: '2', Scope: '#mediaAritmetica' 
+Variabila, Nume: '@sum', Tip: int, Valoare: nedefinit, Scope: '#mediaAritmetica'
+Functie, Nume: '#mediaX', Tip: int, Scope: 'global'
+Parametru, Nume: '@numar1', Tip: int, Valoare: nedefinit, Scope: '#mediaX'
+Parametru, Nume: '@numar2', Tip: int, Valoare: nedefinit, Scope: '#mediaX'
+Variabila, Nume: '@zzz', Tip: int, Valoare: nedefinit, Scope: '#mediaX'
+Variabila, Nume: '@rrrrrrrrrrr', Tip: int, Valoare: '10010', Scope: 'global' 
+Variabila, Nume: '@result', Tip: int, Valoare: '37', Scope: 'global' 
+Variabila, Nume: '@medie', Tip: int, Valoare: '55', Scope: 'global' 
+Variabila, Nume: '@resultatTest', Tip: int, Valoare: '14', Scope: 'global' 
+Variabila, Nume: '@numar1', Tip: int, Valoare: '6', Scope: 'global' 
+Functie, Nume: '#functieInt', Tip: int, Scope: 'global'
+Parametru, Nume: '@param', Tip: int, Valoare: nedefinit, Scope: '#functieInt'
+Functie, Nume: '#functieVoid', Tip: int, Scope: 'global'
+Parametru, Nume: '@param', Tip: int, Valoare: nedefinit, Scope: '#functieVoid'
+Variabila, Nume: '@a2', Tip: float, Valoare: nedefinit, Scope: '#functieVoid'
+Variabila, Nume: '@bLocal', Tip: int, Valoare: nedefinit, Scope: '#functieVoid'
+Variabila, Nume: '@a2', Tip: int, Valoare: '2', Scope: 'global' 
+Variabila, Nume: '@termen', Tip: int, Valoare: '1000', Scope: 'global' 
+Variabila, Nume: '@bVal1', Tip: bool, Valoare: 'false', Scope: 'global' 
+Variabila, Nume: '@bVal2', Tip: bool, Valoare: 'true', Scope: 'global' 
+Functie, Nume: '#functieNoua', Tip: int, Scope: 'global'
+Parametru, Nume: '@param1', Tip: int, Valoare: nedefinit, Scope: '#functieNoua'
+Clasa, Nume: '@nume_clasa', Scope: global 
+Variabila, Nume: '@proprietatePublica', Tip: int, Valoare: nedefinit, Scope: '@nume_clasa', Nivel protectie: public
+Variabila, Nume: '@variabilaTest2', Tip: int, Valoare: nedefinit, Scope: '@nume_clasa', Nivel protectie: public
+Functie, Nume: '#metoda1', Tip: int, Scope: '@nume_clasa', Nivel protectie: public
+Parametru, Nume: '@metoda1Param1', Tip: int, Valoare: nedefinit, Scope: '#metoda1', Nivel protectie: public
+Parametru, Nume: '@metoda1Param2', Tip: int, Valoare: nedefinit, Scope: '#metoda1', Nivel protectie: public
+Functie, Nume: '#metoda2', Tip: int, Scope: '@nume_clasa', Nivel protectie: public
+Parametru, Nume: '@metoda2Param1', Tip: int, Valoare: nedefinit, Scope: '#metoda2', Nivel protectie: public
+Parametru, Nume: '@metoda2Param2', Tip: int, Valoare: nedefinit, Scope: '#metoda2', Nivel protectie: public
+Variabila, Nume: '@varPublic', Tip: int, Valoare: nedefinit, Scope: '#metoda2', Nivel protectie: public
+Variabila, Nume: '@varPublic2', Tip: float, Valoare: nedefinit, Scope: '#metoda2', Nivel protectie: public
+Functie, Nume: '#metodaPrivata', Tip: int, Scope: '@nume_clasa', Nivel protectie: privat
+Parametru, Nume: '@metoda1PrivataParam1', Tip: int, Valoare: nedefinit, Scope: '#metodaPrivata', Nivel protectie: privat
+Parametru, Nume: '@metoda1PrivataParam2', Tip: int, Valoare: nedefinit, Scope: '#metodaPrivata', Nivel protectie: privat
+Variabila, Nume: '@varPrivate', Tip: int, Valoare: nedefinit, Scope: '#metodaPrivata', Nivel protectie: privat
+Variabila, Nume: '@varPrivate2', Tip: float, Valoare: nedefinit, Scope: '#metodaPrivata', Nivel protectie: privat
+Variabila, Nume: '@nou', Tip: int, Valoare: '1', Scope: '@nume_clasa' 
+Variabila, Nume: '@bVal23', Tip: bool, Valoare: 'true', Scope: 'global' 
+Functie, Nume: '#functieIfForWhile', Tip: int, Scope: 'global'
+Parametru, Nume: '@param1', Tip: int, Valoare: nedefinit, Scope: '#functieIfForWhile'
+Variabila, Nume: '@bVal223', Tip: bool, Valoare: 'true', Scope: '#functieIfForWhile' 
+Variabila, Nume: '@i', Tip: int, Valoare: '3', Scope: '#functieIfForWhile' 

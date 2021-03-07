@@ -1,0 +1,20 @@
+fdsfsa: {ECHO;} // afisam efectiv fdsfsda:
+
+
+yacc -d ex1.y; 
+lex ex1.l; 
+gcc lex.yy.c y.tab.c -o ex1.bin; 
+./ex1.bin
+---scriu input
+
+
+-------------------
+
+yacc -d ex2.y; 
+lex ex2.l; 
+gcc lex.yy.c y.tab.c -o ex2.bin; 
+./ex2.bin
+
+yacc -d limbaj.y; 
+lex limbaj.l; 
+gcc lex.yy.c y.tab.c -o limbaj.bin; 
